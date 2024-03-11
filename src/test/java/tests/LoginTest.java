@@ -25,7 +25,7 @@ public class LoginTest {
 	LoginPage lp;
 	@BeforeTest
 	public void openBrowser() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\lenovo\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		driver =new ChromeDriver();
 		lp=new LoginPage(driver);
 		driver.manage().deleteAllCookies();
