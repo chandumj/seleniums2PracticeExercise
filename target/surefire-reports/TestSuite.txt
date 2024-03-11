@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 11.843 s <<< FAILURE! - in TestSuite
+testLogin(tests.LoginTest)  Time elapsed: 0.645 s  <<< FAILURE!
+java.lang.AssertionError: expected [Demo Web Shop] but found [Demo Web Shop. Login]
+	at tests.LoginTest.testLogin(LoginTest.java:42)
+
+testLogin(tests.LoginTest)  Time elapsed: 0.582 s  <<< FAILURE!
+java.lang.AssertionError: expected [Demo Web Shop] but found [Demo Web Shop. Login]
+	at tests.LoginTest.testLogin(LoginTest.java:42)
+
